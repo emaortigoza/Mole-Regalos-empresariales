@@ -164,7 +164,7 @@
 
           </div>
 
-          <div class="row mt-4 gap-4 gap-md-0">
+          <div class="row  gap-4 gap-md-0">
             <div class="col-md-4">
               <div class="tarjeta">
                 <figure>
@@ -226,7 +226,7 @@
 
           </div>
 
-          <div class="row mt-5 gap-4 gap-md-0">
+          <div class="row  gap-4 gap-md-0">
             <div class="col-md-4">
               <div class="tarjeta">
                 <figure>
@@ -288,7 +288,7 @@
 
           </div>
 
-          <div class="row mt-5 gap-4 gap-md-0">
+          <div class="row gap-4 gap-md-0">
             <div class="col-md-4">
               <div class="tarjeta">
                 <figure>
@@ -434,34 +434,40 @@
 
       </section>
 
-      <section class="contacto container" id="scrollspyContacto">
-
-        <div class="contacto__hero row mt-5 gap-4 gap-md-0">
-          <div class=" contacto__datos col-md-6">
-            <i class="bi bi-envelope-at"><h4>emaildecontacto@email.com</h4></i>
-            <i class="bi bi-telephone"><h4>Telefono: 123456789</h4></i>
-            <i class="bi bi-geo-alt"><h4>av.siempreviva 1234, Tigre. Bs.As</h4></i>
-            <div class="contacto__iconos">
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-envelope"></i></a>
-              <a href=""><i class="bi bi-whatsapp"></i></a>
+      <section class="form-contacto" id="scrollspyContacto">
+        <div class="container contacto__hero">
+          <div class="row single-form g-0">
+            <div class="col-sm-12 col-lg-6">
+              <div class="form-izquierda">
+                  <i class="bi bi-envelope-at"><h4>emaildecontacto@email.com</h4></i>
+                  <i class="bi bi-telephone"><h4>Telefono: 123456789</h4></i>
+                  <i class="bi bi-geo-alt"><h4>av.siempreviva 1234, Tigre. Bs.As</h4></i>
+                  <div class="contacto__iconos">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-envelope"></i></a>
+                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                  </div>
+              </div>
             </div>
-          </div>
-          
-            <div class="contacto__formulario col-md-6">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+            <div class="col-sm-12 col-lg-6">
+              <div class="form-derecha">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu e-mail">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </form>
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu e-mail">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button class="btn btn-primary" type="button">Enviar</button>
+            </div>
           </div>
         </div>
       </section>
